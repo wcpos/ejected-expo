@@ -1,7 +1,12 @@
-import 'react-native-gesture-handler';
-require('react-native-ui-lib/config').setConfig({appScheme: 'default'});
-import {registerRootComponent} from 'rnn-screens';
+// import 'react-native-gesture-handler';
+import * as React from 'react';
+import {AppRegistry, Text, View} from 'react-native';
 
-import {App, beforeStart} from './App';
+// import App from '@wcpos/core';
+const App = props => (
+  <View>
+    <Text>App1</Text>
+  </View>
+);
 
-registerRootComponent(App, {beforeStart});
+AppRegistry.registerComponent('WooCommercePOS', () => App);
