@@ -1,6 +1,5 @@
 package com.wcpos.client.ejected;
 
-import com.reactnativenavigation.NavigationActivity;
 import com.facebook.react.ReactActivityDelegate;
 import com.facebook.react.ReactRootView;
 
